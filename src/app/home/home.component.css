@@ -1,0 +1,186 @@
+.container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 2fr .5fr 2fr 2fr .5fr 2fr .5fr 2fr .1fr;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    margin: auto;
+    padding: auto;
+    object-fit: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#home {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-image: url(../images/handyman.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 0;
+}
+
+#home h1 {
+    padding-top: 40px;
+    padding-left: 20%;
+    margin-bottom: 0px;
+}
+
+#home h2 {
+    padding-left: 20%;
+    margin: 0;
+}
+
+#home h3 { 
+    padding-left: 20%;
+    margin-top: 0px;
+}
+
+#services {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: #2b6ca3;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+
+#carpentry {
+    text-align: center;
+    margin: 0;
+    align-content: center;
+    background-color: #2b6ca3;
+    color: white;
+    padding-top: 5px;
+}
+
+#carpentry h3{
+    padding-top: 15px;
+}
+
+#plumbing {
+    text-align: center;
+    margin: 0;
+    align-content: center;
+    background-color: #2b6ca3;
+    color: white;
+    padding-bottom: 15px;
+}
+
+#electrical {
+    text-align: center;
+    margin: 0;
+    align-content: center;
+    background-color: #2b6ca3;
+    color: white;
+    padding-top: 5px;
+}
+
+#painting {
+    text-align: center;
+    margin: 0;
+    align-content: center;
+    background-color: #2b6ca3;
+    color: white;
+    padding-top: 15px;
+}
+
+#about {
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-image: url(../images/wood.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    padding-top: 15px;
+}
+
+#about p{
+    padding-top: 15px;
+}
+
+#review-title {
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    color: #2b6ca3;
+    padding-top: 15px;
+}
+
+#first-review {
+    text-align: center;
+    margin: auto;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding-right: 2px;
+}
+
+#second-review {
+    text-align: center;
+    margin: auto;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    padding-left: 2px;
+}
+
+#contact {
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: #2b6ca3;
+    color: white;
+    padding-top: 15px;
+}
+
+#call {
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    word-wrap:break-word;
+    background-color: #2b6ca3;
+    color: white;
+    padding-top: 15px;
+}
+
+#email {
+    text-align: center;
+    padding-right: 4px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    word-wrap:break-word;
+    background-color: #2b6ca3;
+    color: white;
+    padding-top: 15px;
+}
+
+#area-covered {
+    text-align: center;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    word-wrap:break-word;
+    background-color: #2b6ca3;
+    color: white;
+    padding-top: 15px;
+}
+
+#quote {
+    text-align: center;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    background-color: #2b6ca3;
+    color: white;
+    padding-top: 15px;
+}
+
+#footer {
+        text-align: center;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        margin-top: 20px;
+}
