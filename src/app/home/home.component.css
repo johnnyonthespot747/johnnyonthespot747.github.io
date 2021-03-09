@@ -171,6 +171,7 @@
 
 #quote {
     text-align: center;
+    
     grid-column-start: 4;
     grid-column-end: 5;
     background-color: #2b6ca3;
