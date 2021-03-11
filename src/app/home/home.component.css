@@ -14,7 +14,11 @@
 #home {
     grid-column-start: 1;
     grid-column-end: 5;
-    background-image: url(../images/handyman.jpg);
+    background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url(../images/handyman.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -22,6 +26,7 @@
     height: 100%;
     margin: auto;
     padding: 0;
+    color: white;
 }
 
 #home h1 {
@@ -94,7 +99,11 @@
     text-align: center;
     grid-column-start: 1;
     grid-column-end: 5;
-    background-image: url(../images/wood.jpg);
+    background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url(../images/wood.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
