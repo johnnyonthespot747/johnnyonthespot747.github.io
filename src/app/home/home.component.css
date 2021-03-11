@@ -46,7 +46,8 @@
     background-color: #2b6ca3;
     text-align: center;
     color: white;
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 #carpentry {
@@ -68,7 +69,7 @@
     align-content: center;
     background-color: #2b6ca3;
     color: white;
-    padding-bottom: 15px;
+    padding-bottom: 30px;
 }
 
 #electrical {
@@ -103,6 +104,7 @@
 
 #about p{
     padding-top: 15px;
+    text-align: center;
 }
 
 #review-title {
@@ -118,7 +120,7 @@
     margin: auto;
     grid-column-start: 2;
     grid-column-end: 3;
-    padding-right: 2px;
+    padding-right: 15px;
 }
 
 #second-review {
@@ -126,7 +128,7 @@
     margin: auto;
     grid-column-start: 3;
     grid-column-end: 4;
-    padding-left: 2px;
+    padding-left: 15px;
 }
 
 #contact {
@@ -148,6 +150,10 @@
     padding-top: 15px;
 }
 
+#call h4{
+    padding-top: 20px;
+}
+
 #email {
     text-align: center;
     padding-right: 4px;
@@ -157,6 +163,10 @@
     background-color: #2b6ca3;
     color: white;
     padding-top: 15px;
+}
+
+#email h4{
+    padding-top: 20px;
 }
 
 #area-covered {
@@ -169,8 +179,13 @@
     padding-top: 15px;
 }
 
+#area-covered h4{
+    padding-top: 20px;
+}
+
 #quote {
     text-align: center;
+    
     grid-column-start: 4;
     grid-column-end: 5;
     background-color: #2b6ca3;
@@ -178,9 +193,21 @@
     padding-top: 15px;
 }
 
+#quote h4{
+    padding-top: 20px;
+}
+
 #footer {
         text-align: center;
         grid-column-start: 1;
         grid-column-end: 5;
         margin-top: 20px;
+        padding-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
 }
