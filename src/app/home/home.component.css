@@ -102,6 +102,10 @@
     padding-top: 15px;
 }
 
+#about h1{
+    color:rgb(255, 222, 17);
+}
+
 #about p{
     padding-top: 15px;
     text-align: center;
