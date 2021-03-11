@@ -120,7 +120,7 @@
     margin: auto;
     grid-column-start: 2;
     grid-column-end: 3;
-    padding-right: 15px;
+    padding: 10px 10px 20px 10px;
 }
 
 #second-review {
@@ -128,7 +128,7 @@
     margin: auto;
     grid-column-start: 3;
     grid-column-end: 4;
-    padding-left: 15px;
+    padding: 10px 10px 20px 10px;
 }
 
 #contact {
@@ -210,4 +210,49 @@
         display: flex;
         flex-direction: column;
     }
+
+    #home h2{
+        padding-bottom: 20px;
+    }
+
+    #services h1{
+        padding-bottom: 10px;
+    }
+
+    #carpentry p{
+        padding-bottom: 20px;
+    }
+
+    #electrical p{
+        padding-bottom: 20px;
+    }
+
+    #painting p{
+        padding-bottom: 20px;
+    }
+
+    #about p{
+        padding: 10px 10px 20px 10px;
+    }
+
+    #contact h1{
+        padding-bottom: 10px;
+    }
+
+    #call h4{
+        padding-bottom: 10px;
+    }
+
+    #email h4{
+        padding-bottom: 15px;
+    }
+
+    #area-covered {
+        padding-bottom: 15px;
+    }
+
+    #quote {
+        padding-bottom: 15px;
+    }
+
 }
